@@ -1,4 +1,4 @@
-FROM PHP 8.5
+FROM PHP:8.5-apache
 WORKDIR /myapp
 RUN apt update && apt install -y
 CMD ..
